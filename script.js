@@ -1,6 +1,6 @@
 //your JS code here. If required.
-let button = document.getElementsByTagName("button")[0];
-let p = document.getElementsByTagName("p")[0];
+let button = document.getElementById("enterBtn");
+let p = document.getElementById("status");
 button.addEventListener("click",change);
 function change(event){
 	let newHeading = document.createElement("h1");
